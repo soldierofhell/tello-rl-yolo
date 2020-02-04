@@ -114,7 +114,7 @@ thread_box.start()
 
 
 def get_dist(x, y):
-    ""ff""
+    #""ff""
     dist = np.sqrt((np.square(np.array([x, y]) - np.array([480, 360]))).sum())
     return dist
 
